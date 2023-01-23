@@ -26,4 +26,4 @@ Simulation of a catwalk of models, where we will have three agents that will be 
 4. Result:
 
       ![gif ejercicio 4](gif.gif)
-      ![gif ejercicio 4](/gifs/gif5.gif)
+  
