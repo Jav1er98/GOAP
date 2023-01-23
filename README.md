@@ -1,28 +1,29 @@
-## Práctica 4: Eventos y Movimiento rectilíneo.
-## Objetivo: Resolver las siguientes actividades.
+## Create a GOAP project
+## Objective: Create a GOAP project in which a set of agents carry out a series of actions that allow them to achieve their objectives.
 
-1. Crear un script para mover al objeto jugador con los ejes Horizontal y Vertical.
+The theme is completely free, for example you can simulate a town with agents of all kinds (cooks, bakers, farmers, miners, blacksmiths, bankers, vendors, thieves, bailiffs, firefighters,...). As a reference, a project with 3 types of agents and 6 actions in total is a pass. From there, it will be graded based on its complexity.
 
-      ![gif ejercicio 1](/gifs/Ejercicio1.gif)
+Simulation of a catwalk of models, where we will have three agents that will be the following:
+     
+1. Public agent (Blue): who attends the fashion show
+
+      - Goes to the entrance of the building then to the seats
+      - Watch the models
+      - Finally leaves the building   
       
-2. Implementar una UI que permita configurar con qué velocidad te moverás: turbo o normal. También debe mostar la cantidad de objetos recolectados y si chocas con alguno especial restar fuerza. 
+2. VIP agent (Red): has a special area to go where to be placed together with the rest of the vips
 
-      ![gif ejercicio 2_1](/gifs/Ejercicio2_1.gif)
-      ![gif ejercicio 2_2](/gifs/Ejercicio2_2.gif)
-      ![gif ejercicio 2_4](/gifs/Ejercicio2_4.gif)
-
-3. Agregar a tu escena un objeto que al ser recolectado por el jugador haga que otro objetos obstáculos se desplacen de su trayectoria. 
+      - Enter through the building's VIP entrance
+      - He goes to the VIP area and watches the models
+      - He finally leaves the building
+   
+3. Models agent (Rose): the stars of the catwalk
        
-      ![gif ejercicio 2_3](/gifs/Ejercicio2_3.gif)
+      - They head to the entrance of your walkway
+      - They parade on the catwalk, wait for the moment to be observed and take another turn
+      - Then they finally leave the catwalk
        
-4. Agrega un objeto que te teletransporte a otra zona de la escena.
+4. Result:
 
-      ![gif ejercicio 4](/gifs/Ejercicio4.gif)
-      
-5. Agrega un personaje que se dirija hacia un objetivo estático en la escena.
-
-      ![gif ejercicio 5](/gifs/Ejercicio5.gif)
-      
-6. Agrega un personaje que siga el movimiento del jugador. 
-
-      ![gif ejercicio 6](/gifs/Ejercicio6.gif)
+      ![gif ejercicio 4](gif.gif)
+      ![gif ejercicio 4](/gifs/gif5.gif)
