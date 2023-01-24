@@ -4,13 +4,6 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Scenario
-  - PublicSpace
-  - Gate
-  - SingerGate
-  - LeaveCampus
-  - LeaveSingerCampus
-  - BeerShop
   - Build
   - Seats
   - LeaveBuild
