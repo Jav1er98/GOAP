@@ -17,8 +17,8 @@ public sealed class GWorld
         scenario = new Queue<GameObject>();
         publicSpace = new Queue<GameObject>();
         
-        GameObject[] scenarioList = GameObject.FindGameObjectsWithTag("Scenario");
-        GameObject[] publicSpaceList = GameObject.FindGameObjectsWithTag("PublicSpace");
+        GameObject[] scenarioList = GameObject.FindGameObjectsWithTag("CatWalk");
+        GameObject[] publicSpaceList = GameObject.FindGameObjectsWithTag("Seats");
 
         foreach (var sc in scenarioList)
         {
